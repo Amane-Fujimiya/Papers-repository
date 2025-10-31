@@ -1,5 +1,8 @@
 This is the repository of which contains serial sessions of papers that I plan to do, and plan to construct. Most of them contains the open-source, `LaTeX` files and `PDF` output from such, and so on that support the current existing framework. Usually, you will have to compile this either by using [Overleaf](https://www.overleaf.com/) editorial platform, or by installing MikTex and get Latex distribution there to run those document scripts. 
 
+
+The current structure is as followed. 
+
 ```bash
 Folder PATH listing for volume Workspace I
 Volume serial number is AB7F-4940
