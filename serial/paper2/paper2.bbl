@@ -1,0 +1,46 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Vel(2024)]{VeltenetalMathematicalModelling}
+Mathematical {Modeling} and {Simulation}: {Introduction} for {Scientists} and
+  {Engineers}, 2nd {Edition} {\textbar} {Wiley}, 2024.
+\newblock URL
+  \url{https://www.wiley.com/en-us/Mathematical+Modeling+and+Simulation%3A+Introduction+for+Scientists+and+Engineers%2C+2nd+Edition-p-9783527839407}.
+
+\bibitem[Cartuyvels et~al.(2021)Cartuyvels, Spinks, and Moens]{Cartuyvels_2021}
+Ruben Cartuyvels, Graham Spinks, and Marie-Francine Moens.
+\newblock Discrete and continuous representations and processing in deep
+  learning: Looking forward.
+\newblock \emph{AI Open}, 2:\penalty0 143–159, 2021.
+\newblock ISSN 2666-6510.
+\newblock \doi{10.1016/j.aiopen.2021.07.002}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.aiopen.2021.07.002}.
+
+\bibitem[Müller et~al.(2022)Müller, Evans, Schied, and Keller]{M_ller_2022}
+Thomas Müller, Alex Evans, Christoph Schied, and Alexander Keller.
+\newblock Instant neural graphics primitives with a multiresolution hash
+  encoding.
+\newblock \emph{ACM Transactions on Graphics}, 41\penalty0 (4):\penalty0
+  1–15, July 2022.
+\newblock ISSN 1557-7368.
+\newblock \doi{10.1145/3528223.3530127}.
+\newblock URL \url{http://dx.doi.org/10.1145/3528223.3530127}.
+
+\bibitem[Rosenblatt(1958)]{Rosenblatt1958ThePA}
+Frank Rosenblatt.
+\newblock The perceptron: a probabilistic model for information storage and
+  organization in the brain.
+\newblock \emph{Psychological review}, 65 6:\penalty0 386--408, 1958.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:12781225}.
+
+\bibitem[Zhang et~al.(2023)Zhang, Lipton, Li, and
+  Smola]{zhang2023divedeeplearning}
+Aston Zhang, Zachary~C. Lipton, Mu~Li, and Alexander~J. Smola.
+\newblock Dive into deep learning, 2023.
+\newblock URL \url{https://arxiv.org/abs/2106.11342}.
+
+\end{thebibliography}

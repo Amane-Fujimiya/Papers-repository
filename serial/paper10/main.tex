@@ -1,0 +1,321 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[english]{babel}
+\usepackage{subfigure}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{authblk}
+\allowdisplaybreaks
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{subcaption}
+\usepackage[margin=1in]{geometry}
+
+\title{\Large Theoretical study of the Hall effect in infinite semi-parabolic Quantum Wells in the present of electromagnetic wave in optical electron-phonon scattering by using quantum kinetic equation}
+
+\author{Phung Huy Hieu, Bui Gia Khanh}
+\affil{Faculty of Physics, VNU University of Science, Vietnam National University, \\ 334 Nguyen Trai, Thanh Xuan, Hanoi, Vietnam}
+\date{}
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+    
+In this paper, we conduct theoretical study on the Hall effect in an infinite semi-parabolic Quantum Well (ISPQW) in the present of electromagnetic using the quantum kinetic equation in the case of electron-optical phonon and electron- acoustic phonon scattering. The analytical expressions for Hall coefficient are obtained for the case where ISPQW is placed in a perpendicular magnetic field $B$, a constant electric field $E_1$, and an intense electromagnetic wave $\vec{E}$. The numerical calculations show that the Hall coefficient depends on magnetic field B, temperature $T$, intense $E$, frequency $\Omega$ of electromagnetic wave, and confinement frequency $\omega_{z}$. The results indicate that the Hall coefficient increases as the magnetic field, temperature, or confinement frequency increases. Notably, pronounced oscillations in the Hall coefficient are observed at low temperatures and low magnetic fields, clearly reflecting the Hall effect in an infinite semi-parabolic quantum well. These findings contribute to enriching our understanding of the unique properties of ISPQW structure, especially highlighting significant differences between conventional bulk semiconductors and other low-dimensional semiconductor structures such as quantum wires and superlattices.
+
+\end{abstract}
+
+\section{Introduction}
+Low-dimensional semiconductor systems such as quantum wells, wires, and superlattices have attracted great interest due to their unique quantum properties and wide applications. Among them, the infinite semi-parabolic quantum well (ISPQW) stands out for its distinctive confinement potential, which allows for more tunable electronic behaviors.
+
+The Hall effect, a fundamental transport phenomenon, provides insights into carrier dynamics in semiconductors. While well understood in bulk and simple low-dimensional systems, its behavior in complex quantum wells under external fields remains less explored\cite{bau2014}. In particular, the combined effects of a perpendicular magnetic field, a static electric field, and an intense electromagnetic wave on the Hall effect in ISPQWs have not been thoroughly investigated.
+
+In this work, we use the quantum kinetic equation method to study the Hall effect in ISPQWs, considering electron-optical  phonon scattering. Analytical expressions for the Hall coefficient are derived, and numerical results show its dependence on magnetic field strength, temperature, electromagnetic wave intensity and frequency, and confinement potential. Remarkably, strong oscillations in the Hall coefficient are observed at low temperatures and magnetic fields, highlighting the distinct transport behavior in ISPQW structures compared to bulk materials.
+
+
+\section{Energy spectrum and wave function of electrons in a quantum well when placed in perpendicular electric and magnetic fields}
+
+Consider an electron trapped in a quantum well of the form:
+\begin{equation}
+    V(z) =
+    \begin{cases}
+        \infty, & z<0\\
+        \frac{1}{2} m_e \omega_z^2 z^2 , & z \geq 0 
+       
+    \end{cases}
+    \label{eq:1}
+\end{equation}
+
+where $m_e$ is the mass of electron; $\omega_z$ a is a parameter characterizing the confinement.
+
+Place the quantum well \eqref{eq:1} in a magnetic field $\Vec{B}=(0,0,B)$ and an electric field $\Vec{E}=(E,0,0)$. Choose the vector potential of the above magnetic field as $\Vec{A}=(0,B_x,0)$ then the single-particle wave function and the corresponding energy of the electron are:
+
+\begin{equation}
+    \psi(\Vec{r})= \psi_0 \Phi(x-x_0) e^{ik_y y} \phi_n(z)
+\end{equation}
+
+\begin{equation}
+    \varepsilon_{N,n} (\Vec{k_y})= \hbar \omega_c (N+\frac{1}{2}) + \hbar \omega_z (2n+\frac{3}{2})+ \hbar \nu_d k_y - \frac{1}{2} m_e \nu_d^2
+\end{equation}
+
+where N is the Landau level index and n is the sublevel index.; $\omega_c=\frac{e B}{m_e}$ is cyclotron frequency; $\nu_d= -\frac{E_1}{B}$ is the velocity of electron drift.
+
+$\Phi(x-x_0)$ is the wave function centered at $x_0 = - l^2 (k_y-\frac{m_e \nu_d}{\hbar})$, where $l=\sqrt{\frac{\hbar}{eB}}$ is the radius of the cyclotron in the Oxy plane; $\phi_n(z)$ is an eigenfunction and is given by:
+\begin{equation}
+    \phi_n(z)=A_n  \cdot e^{-\frac{z^2}{2\alpha_z^2}} \cdot H_{2n+1}(\frac{z}{\alpha_z})
+\end{equation}
+where H is the Hermite polynomials; $\alpha_z=\sqrt{\frac{\hbar}{m_e \omega_z}}$.
+
+\section{Hall effect in finite additive asymmetric semi-parabolic quantum well with electron-optical phonon scattering under the influence of a strong electromagnetic wave}
+
+The hamiltonian of the electron-phonon network in the second quantized representation is written as
+\begin{equation}
+\begin{aligned}
+    H&= \sum_{N,n,\vec{k_y}} \varepsilon_{N,n}(\vec{k_y}-\frac{e}{\hbar c} \vec{A}(t)) a_{N,n,\vec{k_y}}^{+} a_{N,n,\vec{k_y}}+ \sum_{\vec{q}} \hbar \omega_{\vec{q}} b_{\vec{q}}^+ b_{\vec{q}}\\&+ \sum_{N,N'} \sum_{n,n'} \sum_{\vec{q},\vec{k_y}} D_{N,n,N',n'}(\vec{q}) a_{N',n',\vec{k_y}+\vec{q_y}}^{+} a_{N,n,\vec{k_y}} (b_{\vec{q}}+ b_{-\vec{q}}^{+})
+    \end{aligned}
+    \label{H}
+\end{equation}
+
+where the characteristic coefficient of the electron-phonon interaction is given by \cite{Lee} \cite{vasilopoulos1987}:
+\begin{equation}
+    |D_{N,n,N',n'}(\vec{q})|^2= |C(\vec{q})|^2 |I_{n,n'}|^2 |J_{N,N'}(u)|^2
+\end{equation}
+$C(\vec{q})$ is the interaction constant that depends on the type of electron-phonon interaction.
+
+$I_{n,n'}$ is the form factor of the electron and is given by:
+\begin{equation}
+    I_{n,n'}=  \frac{11 \sqrt{\pi}}{\sqrt{2} \alpha_z}
+\end{equation}
+
+and
+\begin{equation}
+    |J_{N,N'}(u)|^2 = \frac{N_{min}!}{N_{max}!} e^{-u} u^{N_{max}-N_{min}} [L_{N_{min}}^{N_{max}-N_{min}}(u)]^2
+\end{equation}
+where $N_{min}= min\{N,N'\}$, $N_{max} = max\{N,N'\}$, $u=\frac{l_B^2 q_{\bot}^2}{2}$, $q_{\bot}^2=q_x^2+q_y^2$, $L_{N_{min}}^{N_{max}-N_{min}}(u)$ is the adjoint Laguerre polynomial.
+
+Using Hamiltonian \eqref{H} in the quantum dynamic equations for the particle number operator in the finite additive asymmetric semiparabolic quantum well:
+\begin{equation}
+    i \hbar \frac{\partial f_{N,n,\vec{k_y}}(t)}{\partial t} = <[a_{N,n,\vec{k_y}}^+ a_{N,n,\vec{k_y}},H]>_t
+\end{equation}
+
+The quantum kinetic equation for the electron distribution is now become:
+
+\begin{equation}
+    \begin{aligned}
+        &-(e \vec{E_1} + \hbar \omega_c [\vec{k_y} \land \vec{h}]) \frac{\partial f_{N,n,\vec{k_y}}}{\hbar \partial \vec{k_y}} + \frac{h \vec{k_y}}{m_e} \frac{\partial f_{N,n,\vec{k_y}}}{\partial \vec{r}} = - \frac{f_{N,n,\vec{k_y}}-f_0}{\tau}\\
+        &+\frac{2 \pi}{\hbar} \sum_{N',n',\vec{q}}  |D_{N,n,N',n'}(\vec{q})|^2 \sum_{s=- \infty}^{+ \infty} J_s^2(\frac{\lambda}{\Omega}) \{[f_{N',n',\vec{k_y}+\vec{q_y}}(N_{\vec{q}}+1)- f_{N,n,\vec{k_y}} N_{\vec{q}}]\\ & \times \delta(\varepsilon_{N',n'}(\vec{k_y}+\vec{q_y})-\varepsilon_{N,n}(\vec{k_y})- \hbar \omega_{\vec{q}} - s \hbar \Omega)+ [f_{N',n',\vec{k_y}-\vec{q_y}} N_{\vec{q}}\\&- f_{N,n,\vec{k_y}}(N_{\vec{q}}+1)] \delta(\varepsilon_{N',n'}(\vec{k_y}-\vec{q_y})-\varepsilon_{N,n}(\vec{k_y})+\hbar \omega_{\vec{q}}-s\hbar \Omega)\}
+    \end{aligned}
+    \label{eq:10}
+\end{equation}
+where $\vec{h}=\frac{\vec{B}}{B}$is the unit vector along the magnetic field, the notation $"\land"$ represents the vector product, $f_0$ is the Fermi-Dirac distribution, $\tau$ is the momemtum relaxation time of the electron, $f_{N,n,\vec{k_y}}$ is the electron distribution function perturbed by the external field and $\lambda=\frac{e E_0 q_y}{m_e \Omega}$
+
+In \eqref{eq:10} we limit the problem to the case of $s=-1,0,1$ so that we get the expression for the specific current density:
+\begin{equation}
+    \begin{aligned}
+        \vec{R}(\varepsilon)&= \frac{\tau}{1+\omega_c^2 \tau^2}\Big \{\Big(\vec{Q}(\varepsilon)+\vec{S}(\varepsilon) \Big) - \omega_c \tau \Big([\vec{h} \land \vec{Q}(\varepsilon)]+[\vec{h} \land \vec{S}(\varepsilon)] \Big) \\&+ \omega_c^2 \tau^2 \Big(\vec{Q}(\varepsilon) \vec{h}+ \vec{S}(\varepsilon) \vec{h} \Big ) \vec{h} \Big \}
+    \end{aligned}
+\end{equation}
+
+where
+
+\begin{equation}
+    \vec{Q}(\varepsilon)=- \frac{e}{m_e} \sum_{N,n,\vec{k_y}} \vec{k_y} \Big(\vec{F} \frac{\partial f_{N,n,\vec{k_y}}}{\partial \vec{k_y}} \Big) \delta \Big(\varepsilon-\varepsilon_{N,n}(\vec{k_y}) \Big)
+    \label{eq:12}
+\end{equation}
+
+and
+
+\begin{equation}
+    \begin{aligned}
+        \vec{S}(\varepsilon)&=\frac{2 \pi e}{m_e} \sum_{N'.n'} \sum_{N,n} \sum_{\vec{q},\vec{k_y}} |D_{N,n,N',n'}(\vec{q})|^2 N_{\vec{q}} \vec{k_y} \\& \times \Big \{[f_{N',n',\vec{k_y+\vec{q_y}}}-f_{N,n,\vec{k_y}}]
+         \Big[(1-\frac{\lambda^2}{2 \Omega^2}) \delta \Big(\varepsilon_{N',n'}(\vec{k_y}+\vec{q_y})-\varepsilon_{N,n}(\vec{k_y}) - \hbar \omega_{\vec{q}}\Big) \\&+ \frac{\lambda^2}{4 \Omega^2} \Big(\varepsilon_{N',n'}(\vec{k_y}+\vec{q_y})-\varepsilon_{N,n}(\vec{k_y}) - \hbar \omega_{\vec{q}}+ \hbar \Omega\Big)\\& +\frac{\lambda^2}{4 \Omega^2} \Big(\varepsilon_{N',n'}(\vec{k_y}+\vec{q_y})-\varepsilon_{N,n}(\vec{k_y}) - \hbar \omega_{\vec{q}}- \hbar \Omega\Big) \Big] \\& + [f_{N',n',\vec{k_y-\vec{q_y}}}-f_{N,n,\vec{k_y}}]
+         \Big[(1-\frac{\lambda^2}{2 \Omega^2}) \delta \Big(\varepsilon_{N',n'}(\vec{k_y}-\vec{q_y})-\varepsilon_{N,n}(\vec{k_y}) + \hbar \omega_{\vec{q}}\Big) \\&+ \frac{\lambda^2}{4 \Omega^2} \Big(\varepsilon_{N',n'}(\vec{k_y}-\vec{q_y})-\varepsilon_{N,n}(\vec{k_y}) + \hbar \omega_{\vec{q}}+ \hbar \Omega\Big) \\& +\frac{\lambda^2}{4 \Omega^2} \Big(\varepsilon_{N',n'}(\vec{k_y}-\vec{q_y})-\varepsilon_{N,n}(\vec{k_y}) + \hbar \omega_{\vec{q}}- \hbar \Omega\Big) \Big]\Big\} \delta \Big(\varepsilon-\varepsilon_{N,n}(\vec{k_y}) \Big)
+    \end{aligned}
+    \label{eq:13}
+\end{equation}
+
+The expression is general and can be applied to different types of phonons. From this expression, we get the expression for the current density according to the formula:
+\begin{equation}
+    \vec{J} = \int_{0}^{\infty} \vec{R}(\varepsilon) d\varepsilon
+\end{equation}
+
+Applying this expression, we will find the conductance tensor, magnetoresistance, and Hall coefficient for the two types of electron-phonon interactions and optical electron-phonon interactions.
+
+When the temperature in the system is high, the optical electron-phonon interactions in semiconductors outweigh other interactions. In this case, the electron is assumed to be nondegenerate and follows the Boltzmann distribution. At the same time, assume that the phonons are not dispersive, that is, $\hbar \omega_{\vec{q}} \approx \hbar \omega_0$, $N_{\vec{q}} \approx N_0 = \frac{k_B T}{\hbar \omega_0}$, $k_B$ is the Bolzmann constant. The optical electron-phonon interaction coefficient is the following \cite{Chaybey}:
+\begin{equation}
+    |C(\vec{q})|^2= \frac{2 \pi e^2 \hbar \omega_0}{V_0 \varepsilon_0 q^2} (\frac{1}{\chi_{\infty}}-\frac{1}{\chi_0})
+\end{equation}
+where $\chi_{\infty}$, $\chi_0$ are the high-frequency and static dielectric strengths, respectively.
+
+The electron distribution function is now non-equilibrium and
+the current density is non-linear as a result. Let us consider that the electron gas is nondegenerate, $f_0=e^{\beta(\varepsilon_F-\varepsilon_{N,n\vec{k_y}})}$,$\beta= \frac{1}{k_BT}$ where $\varepsilon_F$ is the Fermi level, and $k_B$ is the Boltzmann constant. After some manipulation, the expression for the conductivity tensor is obtained:
+\begin{equation}
+\begin{aligned}
+\sigma_{im}&= \frac{\tau}{1 + \omega_c^2 \tau^2} 
+\Big( 
+\delta_{ij} - \omega_c \tau \varepsilon_{ijk} h_k + \omega_c^2 \tau^2 h_i h_j 
+\Big)
+\\
+&\quad \times 
+\Bigg\{
+a \delta_{jm} 
++ \frac{b e}{m_e} \cdot \frac{\tau}{1 + \omega_c^2 \tau^2} \delta_{jl}
+\Big(
+\delta_{lm} - \omega_c \tau \varepsilon_{lmp} h_p + \omega_c^2 \tau^2 h_l h_m 
+\Big)
+\Bigg\} 
+\end{aligned}
+\label{eq:16}
+\end{equation}
+where symbols i, j, k, l, p correspond to the components x, y, z of the Cartesian coordinates, $\delta_{ij}$ is the Kronecker delta and $\varepsilon_{ijk}$ k being the antisymmetric Levi- Civita tensor. 
+
+Perform covert sum $\vec{k_y}$ and $\vec{q}$ to integral at \eqref{eq:12} and \eqref{eq:13} \cite{P}:
+\begin{equation}
+    \sum_{\vec{k_y}}(...) \to \frac{L_y}{2\pi} \int_{-\frac{L_x}{2l_B^2}}^{\frac{L_x}{2l_B^2}}(...)dk_y
+\end{equation}
+\begin{equation}
+    \sum_{\vec{q}}(...) \to \frac{V_0}{4 \pi^2} \int_{0}^{+ \infty}(...)q_{\bot}dq_{\bot} \int_{-\infty}^{+\infty}dq_z=\frac{V_0}{4\pi^2 l_B^2}\int_{0}^{+\infty}(...)du \int_{-\infty}^{+\infty}dq_z
+\end{equation}
+The terms a and b are given below:
+\begin{equation}
+    a=-\frac{e^2 \beta \nu_d L_y I}{2 \pi m_e} \sum_{N,n} e^{\beta(\varepsilon_F-\varepsilon_{N,n})}
+\end{equation}
+
+\begin{equation}
+\begin{aligned}
+b=&\frac{ \hbar\beta  A N_0 L_y I}{4\pi^2 m_e}  \sum_{N,N'} \sum_{n,n'} I_0(n,n') e^{\beta(\varepsilon_F-\varepsilon_{N,n})} (b1+b2+b3+b4+b5+b6+b7+b8) 
+\end{aligned}
+\end{equation}
+ The terms b1,b2,...,b8 are given below:
+\begin{align*}
+b_1 &= \frac{1}{M} \frac{eB\overline{l}}{\hbar} \left[ \frac{(N+M)!}{N!} \right]^2 \delta(X_1) \\
+b_2 &= -\frac{\theta}{2} \left( \frac{eB\overline{l}}{\hbar} \right)^3 b_1 \\
+b_3 &= \frac{\theta}{4 m_e} \left( \frac{eB\overline{l}}{\hbar} \right)^3 \left[ \frac{(N+M)!}{N!} \right]^2 \delta(X_2) \\
+b_4 &= \frac{\theta}{4 m_e} \left( \frac{eB\overline{l}}{\hbar} \right)^3 \left[ \frac{(N+M)!}{N!} \right]^2 \delta(X_3) \\
+b_5 &= -\frac{1}{M} \frac{eB\overline{l}}{\hbar} \left[ \frac{(N+M)!}{N!} \right]^2 \delta(X_4) \\
+b_6 &= -\frac{\theta}{2} \left( \frac{eB\overline{l}}{\hbar} \right)^3 b_5 \\
+b_7 &= -\frac{\theta}{4 m_e} \left( \frac{eB\overline{l}}{\hbar} \right)^3 \left[ \frac{(N+M)!}{N!} \right]^2 \delta(X_5) \\
+b_8 &= -\frac{\theta}{4 m_e} \left( \frac{eB\overline{l}}{\hbar} \right)^3 \left[ \frac{(N+M)!}{N!} \right]^2 \delta(X_6)
+\end{align*}
+
+
+Where:
+$$X1=(N'-N)\hbar\omega_c+2(n'-n)\hbar\omega_z+eE_1\overline{l}-\hbar\omega_0, X2= X1+\hbar \Omega, X3=X1-\hbar \Omega$$
+$$X4=(N'-N)\hbar\omega_c+2(n'-n)\hbar\omega_z-eE_1\overline{l}+\hbar\omega_0, X5= X4+\hbar \Omega,X6=X4-\hbar \Omega.$$
+$$\theta=\frac{e^2 E_0^2}{m_e^2 \omega^4}; \varepsilon_{N,n}=(N+\frac{1}{2})\hbar \omega_c+(2n+\frac{3}{2})\hbar \omega_z - \frac{m_e \nu_d^2}{2};
+\overline{l}=(\sqrt{N+\frac{1}{2}}+\sqrt{N+\frac{3}{2}}) \frac{l_B}{2}$$
+\[
+I=\frac{a1}{\alpha \beta}(e^{\alpha \beta a1}+e^{-\alpha \beta a1})- \frac{1}{(\alpha \beta)^2} (e^{\alpha \beta a1}-e^{-\alpha \beta a1}) 
+\]
+\[
+a1=\frac{L_x}{2 l_B^2}
+\]
+Assumes an effective phonon momentum $e \nu_d q_y \approx e E_1 \overline{l}$ that simplifies the summation of $\vec{q_y}$.  The delta functions are also replace by $\delta(x)= \frac{1}{\pi}[\frac{\Gamma}{x^2+\Gamma^2}]$ where $\Gamma \approx \hbar/\tau$ is the damping factor, to avoid divergence \cite{charbonneau1982}, \cite{vasilopoulos1987}.
+
+The Hall coefficient are given by \cite{charbonneau1982}:
+
+\begin{equation}
+    \begin{aligned}
+        R_H=-\frac{1}{B}\frac{\sigma_{yx}}{\sigma_{xx}^2+\sigma_{yx}^2}
+    \end{aligned}
+    \label{eq:19}
+\end{equation}
+
+where $\sigma_{xx}$ and $\sigma_{yx}$ are derived by the formula \eqref{eq:16}.
+
+Through equation \eqref{eq:16}-\eqref{eq:19} shows the complex dependence of the conductivity tensor and the Hall coefficient on the external fields. They are calculated for any of the indices N,n,N',n'. The different form of wavefunction and Energy Spectrum in an Infinite Asymmetric Semi-Parabolic Quantum Well lead to considerable changes in the theoretical results compared to the bulk phonons from the previous study \cite{bau2014}.
+
+
+\section{Numerical results}
+
+In order to clarify the theoretical results obtained, in this section we
+present in detail the numerical evaluation of the Hall coefficient for the GaAs. The parameters used in
+this calculation are as follows: $m_e=0.067 m_0$($m_0$ is the free mass of the electron), $\chi_{\infty}=10.9$,$\chi_0=12.9$,$\varepsilon_F=50meV$,$\tau=10^{-12}s$,$\hbar \omega_0=36.6meV$,$\Omega=4.10^{12} s^{-1}$,$T=290K$,$E_1=2.10^2 V/m$,$E=10^5 V/m$,$L_x=L_y=100nm$,N=0,N'=2,n=0,$n'=0 \to 1$(the transition between the lowest and the first excited level of an electron).
+\subsection{Hall coefficient depends on temperature at different electric field values}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{img/p5.png}
+    \caption{Hall coefficient depends on temperature at different electric field values: $E=3 \times 10^5$ V/m, $ E= 5 \times 10^5 $ V/m, and $E=6 \times 10^5$ V/m}
+    \label{fig:Tthaydoi}
+\end{figure}
+
+In Figure ~\ref{fig:Tthaydoi} illustrates the temperature dependence of the nonlinear Hall coefficient for three different electric field strengths: $E=3 \times 10^5 V/m, E= 5 \times 10^5 V/m, E = 6 \times 10^5 V/m$ in the temperature range from 200 to 400K. 
+
+As temperature increases, the Hall coefficient becomes more negative, particularly under stronger electric fields. For $3 \times 10^5$  V/m, the Hall coefficient remains nearly constant and close to zero, indicating negligible nonlinear effects. In contrast, for higher fields, especially at $E= 6 \times 10^5 V/m$ V/m, the Hall coefficient exhibits a more pronounced nonlinear decrease with temperature.
+
+This behavior suggests that the nonlinear Hall response is enhanced both by increasing temperature and electric field strength. Such trends are likely due to the interplay between carrier dynamics, temperature-dependent scattering mechanisms, and field-induced asymmetries in the band structure.
+
+\vspace{-1em}
+
+\subsection{Temperature dependence of the Hall coefficient at different confinement frequencies}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{img/p3.png}
+    \caption{Temperature dependence of the Hall coefficient at different confinement frequencies($\omega_z = 2\times10^{13}$, $2.2\times10^{13}$, $5\times10^{13}$ V/m).}
+    \label{fig:ethaydoi}
+\end{figure}
+
+At figure ~\ref{fig:ethaydoi} shows the dependence of the Hall coefficient on the temperature T in the range of 200 K to 400 K, with three different values of the confinement frequency $\omega_z$. It can be seen that as T increases, the Hall coefficient gradually decreases, reflecting the negative influence of temperature on the Hall effect in the system. At the same time, with larger $\omega_z$, the absolute value of the Hall coefficient also increases, indicating the positive role of $\omega_z$ in reinforcing the quantum Hall effect. This result emphasizes the importance of controlling fluctuations and thermal noise in quantum systems involving the Hall effect.
+\vspace{-1em}
+\subsection{Dependence of Hall coefficient on temperature at different magnetic field values}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{img/p4.png}
+    \caption{Dependence of Hall coefficient on temperature at different magnetic field values(B=8T,B=10T, B=12 T).}
+    \label{fig:wzthaydoi}
+\end{figure}
+Figure ~\ref{fig:wzthaydoi} shows the dependence of the Hall coefficient on temperature at different magnetic field values. The dependence of the Hall coefficient on temperature in the range of 200–400 K with three different magnetic field values. The results show that the Hall coefficient decreases linearly with temperature and becomes more negative with increasing magnetic field.
+
+When the temperature increases from 200 K to 400 K, the Hall coefficient decreases steadily in magnitude, especially clearly at strong magnetic field (B=12 T). This is consistent with the fact that as the temperature increases, the number of phonons increases, leading to increased scattering and decreased mobility of charge carriers, which reduces the Hall effect.
+
+
+
+
+
+\section*{Conclusion}
+By using quantum dynamic equations to study the influence of strong electromagnetic waves on the characteristics of the Hall effect such as the Hall coefficient in asymmetric semi-parabolic quantum wells (with phonon-optical electron scattering mechanisms). The main results can be summarized as follows:
+
+\begin{enumerate}
+    \item Using the Hamiltonian of the electron-phonon system confined in the asymmetric semi-parabolic quantum well in the presence of electromagnetic waves, constant electric field and external magnetic field, we can construct the quantum kinetic equation for the electron system in the asymmetric semi-parabolic quantum well. Solve this quantum kinetic equation to obtain analytical expressions for the Hall conductance tensor, from which we can obtain the expression of the Hall coefficient for the asymmetric semi-parabolic quantum well (with the electron-phonon optical and acoustic scattering mechanisms).
+    \item The results show the dependence of the Hall coefficient in the asymmetric semiparabolic quantum well on the nonlinear system parameters.
+    \item In terms of methodology, the calculations in the thesis confirm the effectiveness and correctness of the quantum dynamic equation method in studying the transmission properties of electron-phonon systems using quantum theory under conditions of strong magnetic fields and low temperatures. In terms of application, the thesis contributes to explaining the mechanisms of influence of electromagnetic waves on electron-phonon interactions in optical and acoustic phonon in asymmetric semi-parabolic quantum wells. The main results obtained contribute to the development of quantum theory in low-dimensional semiconductor systems. These results are also the basic information for the technology of manufacturing nano-electronic components today.
+\end{enumerate}
+
+\begin{thebibliography}{99}
+
+\bibitem{Lee}
+Lee S. C.(2007),"Optically detected magnetophonon resonances in quantum wells",\textit{J. Korean Phys. Soc}.51(6), pp 1979-1986.
+
+\bibitem{Chaybey}
+Chaubey M.P. and Van Vliet C. M. (1986), "Transverse magnetoconductivity of quasi-two-dimensional semiconductor layers in the presence of phonon scattering", \textit{Phys. Rev. B33}, pp.5617-5622.
+
+\bibitem{P}
+vasilopulos P., Charbonneau M., and Van Vliet C.M(1987), "Linear and nonlinear electrical conduction in quasi-two-dimensional quantum wells", \textit{Phy.Rev.B} (33), 1334-1344
+
+\bibitem{charbonneau1982}
+M. Charbonneau, K.M. van Vliet, P. Vasilopoulos(1982), 
+\textit{Linear response theory revisited III: one-body response formulas and generalized Boltzmann equations}, 
+J. Math. Phys. \textbf{23}) 318-336.
+
+\bibitem{vasilopoulos1987}
+P. Vasilopoulos, M. Charbonneau, C.M. Van Vliet, 
+\textit{Linear and nonlinear electrical conduction in quasi-two-dimensional quantum wells}, 
+Phys. Rev. B \textbf{35} (1987) 1334--1344.
+
+
+\bibitem{bau2014}
+N.Q. Bau, B.D. Hoi (2014), 
+"Dependence of the Hall coefficient on doping concentration in doped semiconductor superlattices with a perpendicular magnetic field under the influence of a laser radiation", 
+\textit{Integr. Ferroelectr. \textbf{155}}. pp 39-44.
+\end{thebibliography}
+
+
+
+\end{document}
