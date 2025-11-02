@@ -12,8 +12,11 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{subcaption}
 \usepackage[margin=1in]{geometry}
+\usepackage{ETbb}
 
-\title{\Large Theoretical study of the Hall effect in infinite semi-parabolic Quantum Wells in the present of electromagnetic wave in optical electron-phonon scattering by using quantum kinetic equation}
+\title{ The Hall effects in electromagnetic-present, quantum well structure of electron-photon scattering}
+
+%Theoretical study of the Hall effect in infinite semi-parabolic Quantum Wells in the present of electromagnetic wave in optical electron-phonon scattering by using quantum kinetic equation
 
 \author{Phung Huy Hieu, Bui Gia Khanh}
 \affil{Faculty of Physics, VNU University of Science, Vietnam National University, \\ 334 Nguyen Trai, Thanh Xuan, Hanoi, Vietnam}
@@ -37,9 +40,9 @@ The Hall effect, a fundamental transport phenomenon, provides insights into carr
 In this work, we use the quantum kinetic equation method to study the Hall effect in ISPQWs, considering electron-optical  phonon scattering. Analytical expressions for the Hall coefficient are derived, and numerical results show its dependence on magnetic field strength, temperature, electromagnetic wave intensity and frequency, and confinement potential. Remarkably, strong oscillations in the Hall coefficient are observed at low temperatures and magnetic fields, highlighting the distinct transport behavior in ISPQW structures compared to bulk materials.
 
 
-\section{Energy spectrum and wave function of electrons in a quantum well when placed in perpendicular electric and magnetic fields}
+\section{The specific energy and wavefunctional}
 
-Consider an electron trapped in a quantum well of the form:
+Our setting throughout this paper is concerned of the \textbf{energy spectrum} and \textbf{wavefunction} of electrons in a quantum well when placed in perpendicular electric and magnetic fields. Consider an electron trapped in a quantum well of the form:
 \begin{equation}
     V(z) =
     \begin{cases}
@@ -61,18 +64,15 @@ Place the quantum well \eqref{eq:1} in a magnetic field $\Vec{B}=(0,0,B)$ and an
 \begin{equation}
     \varepsilon_{N,n} (\Vec{k_y})= \hbar \omega_c (N+\frac{1}{2}) + \hbar \omega_z (2n+\frac{3}{2})+ \hbar \nu_d k_y - \frac{1}{2} m_e \nu_d^2
 \end{equation}
-
-where N is the Landau level index and n is the sublevel index.; $\omega_c=\frac{e B}{m_e}$ is cyclotron frequency; $\nu_d= -\frac{E_1}{B}$ is the velocity of electron drift.
-
-$\Phi(x-x_0)$ is the wave function centered at $x_0 = - l^2 (k_y-\frac{m_e \nu_d}{\hbar})$, where $l=\sqrt{\frac{\hbar}{eB}}$ is the radius of the cyclotron in the Oxy plane; $\phi_n(z)$ is an eigenfunction and is given by:
+where N is the Landau level index and n is the sublevel index.; $\omega_c=eB/m_{e}$ is cyclotron frequency; $\nu_d= -E_1 /B$ is the velocity of electron drift; $\Phi(x-x_0)$ is the wave function centered at $x_0 = - l^2 (k_y-(m_e \nu_d)/\hbar)$, where $l=\sqrt{\hbar/eB}$ is the radius of the cyclotron in the $Oxy$ plane; and $\phi_n(z)$ is an eigenfunction and is given by:
 \begin{equation}
-    \phi_n(z)=A_n  \cdot e^{-\frac{z^2}{2\alpha_z^2}} \cdot H_{2n+1}(\frac{z}{\alpha_z})
+    \phi_n(z)=A_n  \cdot \exp{\left(-\frac{z^2}{2\alpha_z^2}\right)} \cdot H_{2n+1}(\frac{z}{\alpha_z}), \quad \alpha_z=\sqrt{\frac{\hbar}{m_e \omega_z}}
 \end{equation}
-where H is the Hermite polynomials; $\alpha_z=\sqrt{\frac{\hbar}{m_e \omega_z}}$.
+where $H$ is the Hermite polynomials.
 
-\section{Hall effect in finite additive asymmetric semi-parabolic quantum well with electron-optical phonon scattering under the influence of a strong electromagnetic wave}
+\section{The asymmetric, semi-parabolic quantum well}
 
-The hamiltonian of the electron-phonon network in the second quantized representation is written as
+In this particular paper, we focus to resolve the Hall effect in the above setting, for \textbf{finite additive asymmetric semi-parabolic quantum well}, specifically with electron-optical phonon scattering under the influence of a strong electromagnetic wave. In all, the method of solution use the theory of quantum kinetic as the main technique for the following sections. The Hamiltonian of the electron-phonon network in the second quantized representation is written as
 \begin{equation}
 \begin{aligned}
     H&= \sum_{N,n,\vec{k_y}} \varepsilon_{N,n}(\vec{k_y}-\frac{e}{\hbar c} \vec{A}(t)) a_{N,n,\vec{k_y}}^{+} a_{N,n,\vec{k_y}}+ \sum_{\vec{q}} \hbar \omega_{\vec{q}} b_{\vec{q}}^+ b_{\vec{q}}\\&+ \sum_{N,N'} \sum_{n,n'} \sum_{\vec{q},\vec{k_y}} D_{N,n,N',n'}(\vec{q}) a_{N',n',\vec{k_y}+\vec{q_y}}^{+} a_{N,n,\vec{k_y}} (b_{\vec{q}}+ b_{-\vec{q}}^{+})
@@ -97,9 +97,9 @@ and
 \end{equation}
 where $N_{min}= min\{N,N'\}$, $N_{max} = max\{N,N'\}$, $u=\frac{l_B^2 q_{\bot}^2}{2}$, $q_{\bot}^2=q_x^2+q_y^2$, $L_{N_{min}}^{N_{max}-N_{min}}(u)$ is the adjoint Laguerre polynomial.
 
-Using Hamiltonian \eqref{H} in the quantum dynamic equations for the particle number operator in the finite additive asymmetric semiparabolic quantum well:
+Using Hamiltonian \eqref{H} in the quantum dynamic equations for the particle number operator in the finite additive asymmetric semi-parabolic quantum well:
 \begin{equation}
-    i \hbar \frac{\partial f_{N,n,\vec{k_y}}(t)}{\partial t} = <[a_{N,n,\vec{k_y}}^+ a_{N,n,\vec{k_y}},H]>_t
+    i \hbar \frac{\partial f_{N,n,\vec{k_y}}(t)}{\partial t} = \langle [a_{N,n,\vec{k_y}}^+ a_{N,n,\vec{k_y}},H] \rangle_t
 \end{equation}
 
 The quantum kinetic equation for the electron distribution is now become:
@@ -273,7 +273,7 @@ At figure ~\ref{fig:ethaydoi} shows the dependence of the Hall coefficient on th
 \end{figure}
 Figure ~\ref{fig:wzthaydoi} shows the dependence of the Hall coefficient on temperature at different magnetic field values. The dependence of the Hall coefficient on temperature in the range of 200–400 K with three different magnetic field values. The results show that the Hall coefficient decreases linearly with temperature and becomes more negative with increasing magnetic field.
 
-When the temperature increases from 200 K to 400 K, the Hall coefficient decreases steadily in magnitude, especially clearly at strong magnetic field (B=12 T). This is consistent with the fact that as the temperature increases, the number of phonons increases, leading to increased scattering and decreased mobility of charge carriers, which reduces the Hall effect.
+When the temperature increases from 200 K to 400 K, the Hall coefficient decreases steadily in magnitude, especially clearly at strong magnetic field ($B=12T$). This is consistent with the fact that as the temperature increases, the number of phonons increases, leading to increased scattering and decreased mobility of charge carriers, which reduces the Hall effect.
 
 
 
@@ -297,12 +297,12 @@ Lee S. C.(2007),"Optically detected magnetophonon resonances in quantum wells",\
 Chaubey M.P. and Van Vliet C. M. (1986), "Transverse magnetoconductivity of quasi-two-dimensional semiconductor layers in the presence of phonon scattering", \textit{Phys. Rev. B33}, pp.5617-5622.
 
 \bibitem{P}
-vasilopulos P., Charbonneau M., and Van Vliet C.M(1987), "Linear and nonlinear electrical conduction in quasi-two-dimensional quantum wells", \textit{Phy.Rev.B} (33), 1334-1344
+P. Vasilopulos, Charbonneau M., and Van Vliet C.M(1987), "Linear and nonlinear electrical conduction in quasi-two-dimensional quantum wells", \textit{Phy.Rev.B} (33), 1334-1344
 
 \bibitem{charbonneau1982}
 M. Charbonneau, K.M. van Vliet, P. Vasilopoulos(1982), 
 \textit{Linear response theory revisited III: one-body response formulas and generalized Boltzmann equations}, 
-J. Math. Phys. \textbf{23}) 318-336.
+J. Math. Phys. (\textbf{23}) 318-336.
 
 \bibitem{vasilopoulos1987}
 P. Vasilopoulos, M. Charbonneau, C.M. Van Vliet, 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.17)  18 OCT 2025 00:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.17)  3 NOV 2025 01:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1023,49 +1023,98 @@ File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 \l__tikzfill_img_box=\box99
 )) (D:\MikTek\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.6.0'
-))))
+)))) (D:\MikTek\tex/latex/datetime\datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+ (D:\MikTek\tex/latex/fmtcount\fmtcount.sty
+Package: fmtcount 2025/02/09 v3.10 Displaying the values of LaTeX counters (NT,VB,NE)
+ (D:\MikTek\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (D:\MikTek\tex/generic/xkeyval\xkeyval.tex (D:\MikTek\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks64
+\XKV@tempa@toks=\toks65
+)
+\XKV@depth=\count430
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (D:\MikTek\tex/latex/fmtcount\fcprefix.sty
+Package: fcprefix 2012/09/28
+ (D:\MikTek\tex/latex/fmtcount\fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count431
+))
+\c@padzeroesN=\count432
+\fc@tmpcatcode=\count433
+\@DT@modctr=\count434
+\@ordinalctr=\count435
+\@orgargctr=\count436
+\@strctr=\count437
+\@tmpstrctr=\count438
+\@DT@loopN=\count439
+\@DT@X=\count440
+) (D:\MikTek\tex/latex/datetime\datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count441
+\@month=\count442
+\@year=\count443
+\c@HOUR=\count444
+\c@HOURXII=\count445
+\c@MINUTE=\count446
+\c@TOHOUR=\count447
+\c@TOMINUTE=\count448
+\c@SECOND=\count449
+\currenthour=\count450
+\currentminute=\count451
+\currentsecond=\count452
+Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
+\@dtctr=\count453
+\dayofyear=\count454
+\dayofweek=\count455
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks66
+\dt@b=\toks67
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 41.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 42.
  (D:\MikTek\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (D:\MikTek\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count430
+\l__color_backend_stack_int=\count456
 ) (paper7.aux)
 \openout1 = `paper7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
  (D:\MikTek\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count431
+\scratchcounter=\count457
 \scratchdimen=\dimen413
 \scratchbox=\box100
-\nofMPsegments=\count432
-\nofMParguments=\count433
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count434
+\nofMPsegments=\count458
+\nofMParguments=\count459
+\everyMPshowfont=\toks68
+\MPscratchCnt=\count460
 \MPscratchDim=\dimen414
-\MPnumerator=\count435
-\makeMPintoPDFobject=\count436
-\everyMPtoPDFconversion=\toks65
+\MPnumerator=\count461
+\makeMPintoPDFobject=\count462
+\everyMPtoPDFconversion=\toks69
 ) (D:\MikTek\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1077,13 +1126,13 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 41.
-Package microtype Info: Applying patch `item' on input line 41.
-Package microtype Info: Applying patch `toc' on input line 41.
-Package microtype Info: Applying patch `eqnum' on input line 41.
-Package microtype Info: Applying patch `footnote' on input line 41.
-Package microtype Info: Applying patch `verbatim' on input line 41.
-LaTeX Info: Redefining \microtypesetup on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 42.
+Package microtype Info: Applying patch `item' on input line 42.
+Package microtype Info: Applying patch `toc' on input line 42.
+Package microtype Info: Applying patch `eqnum' on input line 42.
+Package microtype Info: Applying patch `footnote' on input line 42.
+Package microtype Info: Applying patch `verbatim' on input line 42.
+LaTeX Info: Redefining \microtypesetup on input line 42.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1095,7 +1144,7 @@ Package microtype Info: Using default expansion set `alltext-nott'.
 LaTeX Warning: Command \showhyphens   has changed.
                Check if current package is valid.
 
-LaTeX Info: Redefining \showhyphens on input line 41.
+LaTeX Info: Redefining \showhyphens on input line 42.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1105,75 +1154,62 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 \c__nicematrix_shift_Ldots_last_row_dim=\dimen415
 \c__nicematrix_shift_exterior_Vdots_dim=\dimen416
 \c__nicematrix_innersep_middle_dim=\dimen417
-\c@tabularnotesi=\count437
-\enitdp@tabularnotes=\count438
-\c@tabularnotes*i=\count439
-\enitdp@tabularnotes*=\count440
+\c@tabularnotesi=\count463
+\enitdp@tabularnotes=\count464
+\c@tabularnotes*i=\count465
+\enitdp@tabularnotes*=\count466
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 41.
+ on input line 42.
 
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 42.
 (paper7.out) (paper7.out)
 \@outlinefile=\write4
 \openout4 = `paper7.out'.
 
- (D:\MikTek\tex/latex/microtype\mt-cmr.cfg
+ (D:\MikTek\tex/latex/fmtcount\fc-english.def
+File: fc-english.def 2016/01/12
+) (D:\MikTek\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
  (D:\MikTek\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (D:\MikTek\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (D:\MikTek\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (D:\MikTek\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 45.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 46.
  (D:\MikTek\tex/latex/stmaryrd\ustmry.fd)
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 45.
- (D:\MikTek\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 45.
- (D:\MikTek\tex/latex/psnfss\omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
-
 
 [1{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/MikTek/fonts/enc/dvips/base/8r.enc}
 
 ]
-Underfull \hbox (badness 6078) in paragraph at lines 94--95
+Underfull \vbox (badness 3646) has occurred while \output is active []
+
+
+
+[2]
+Underfull \hbox (badness 6078) in paragraph at lines 95--96
 []|\OT1/ptm/m/n/10 (+20) Derived from Latin \OT1/ptm/m/it/10 (+20) ar-ti-fi-cialis\OT1/ptm/m/n/10 (+20) ,
  []
 
 
 
-[2]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 106.
-
-Underfull \vbox (badness 3158) has occurred while \output is active []
-
-
-
 [3]
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 107.
+
 
 [4]
 
 [5]
-Package hyperref Info: bookmark level for unknown conjecture defaults to 0 on input line 153.
+Package hyperref Info: bookmark level for unknown conjecture defaults to 0 on input line 154.
 
 
 Package natbib Warning: Multiple citation on page 6: same authors and year
@@ -1181,64 +1217,81 @@ Package natbib Warning: Multiple citation on page 6: same authors and year
 (natbib)                appears as question mark.
 
 
-Underfull \vbox (badness 1590) has occurred while \output is active []
+Underfull \vbox (badness 3078) has occurred while \output is active []
 
 
 
 [6]
+Underfull \vbox (badness 6944) has occurred while \output is active []
+
+
+
+[7]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-
-[7]
 pdfTeX warning (ext4): destination with the same identifier (name{definition.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182     B
+l.183     B
            ased on Conjectures~\ref{conj:conjecture_AI_1} and~\ref{conj:conj...
 
 [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [9]
 
 [10]
 
 [11]
-<media/symbolic_prolog1.png, id=696, 398.23781pt x 493.845pt>
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 244.
+ (D:\MikTek\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<media/symbolic_prolog1.png, id=691, 398.23781pt x 493.845pt>
 File: media/symbolic_prolog1.png Graphic file (type png)
 <use media/symbolic_prolog1.png>
-Package pdftex.def Info: media/symbolic_prolog1.png  used on input line 248.
+Package pdftex.def Info: media/symbolic_prolog1.png  used on input line 249.
 (pdftex.def)             Requested size: 127.19373pt x 157.72467pt.
-<media/symbolic_prolog2.png, id=698, 438.13687pt x 189.70876pt>
+<media/symbolic_prolog2.png, id=693, 438.13687pt x 189.70876pt>
 File: media/symbolic_prolog2.png Graphic file (type png)
 <use media/symbolic_prolog2.png>
-Package pdftex.def Info: media/symbolic_prolog2.png  used on input line 255.
+Package pdftex.def Info: media/symbolic_prolog2.png  used on input line 256.
 (pdftex.def)             Requested size: 218.61795pt x 94.66019pt.
 
-Overfull \hbox (19.87546pt too wide) in paragraph at lines 255--256
+Overfull \hbox (19.87546pt too wide) in paragraph at lines 256--257
  [][] 
  []
 
 
 
-[12 <./media/symbolic_prolog1.png> <./media/symbolic_prolog2.png>]
+[12]
+Underfull \vbox (badness 1067) has occurred while \output is active []
 
-[13]
+
+
+[13 <./media/symbolic_prolog1.png> <./media/symbolic_prolog2.png>]
 
 [14]
 pdfTeX warning (ext4): destination with the same identifier (name{definition.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.290     W
+l.291     W
            e define a $K$-layer fully-connected deep neural network with rea...
+Underfull \vbox (badness 1418) has occurred while \output is active []
+
+
 
 [15]
-Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 305.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 306.
 
 
 [16]
@@ -1251,12 +1304,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{definition.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.357     L
+l.359     L
            et $x$ be a neuron of arbitrary neuronal classification $\mathcal...
 pdfTeX warning (ext4): destination with the same identifier (name{definition.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.367     A
+l.369     A
             neuron unit $x\in \mathcal{N}$ belongs to class $\mathcal{N}_{0}...
 
 [20
@@ -1441,22 +1494,22 @@ Overfull \hbox (39.84456pt too wide) in paragraph at lines 1851--1858
 [35]
 
 [36])
-Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 431.
+Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 439.
 
 pdfTeX warning (ext4): destination with the same identifier (name{conjecture.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.437     S
+l.445     S
            uppose there exists a measure $\mathcal{M}[L_i \in A_n]\in \mathb...
-<pdf/blueprint1.pdf, id=1438, 462.96765pt x 195.73627pt>
+<pdf/blueprint1.pdf, id=1446, 462.96765pt x 195.73627pt>
 File: pdf/blueprint1.pdf Graphic file (type pdf)
 <use pdf/blueprint1.pdf>
-Package pdftex.def Info: pdf/blueprint1.pdf  used on input line 442.
+Package pdftex.def Info: pdf/blueprint1.pdf  used on input line 450.
 (pdftex.def)             Requested size: 337.86465pt x 142.85043pt.
 
 
 [37]
-Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on input line 451.
+Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on input line 459.
 
 
 [38 <./pdf/blueprint1.pdf>]
@@ -1471,20 +1524,20 @@ LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `paper7.out' has not changed.
-(rerunfilecheck)             Checksum: E93F930EE6BB2EAA64281E1926B3C9AF;4282.
+(rerunfilecheck)             Checksum: EF755E8994578F4F334EDB92182C40BB;4456.
  ) 
 Here is how much of TeX's memory you used:
- 68084 strings out of 468187
- 1685164 string characters out of 5448667
- 2526208 words of memory out of 5000000
- 94755 multiletter control sequences out of 15000+600000
- 695713 words of font info for 512 fonts, out of 8000000 for 9000
+ 68966 strings out of 468187
+ 1699272 string characters out of 5448667
+ 2557282 words of memory out of 5000000
+ 95610 multiletter control sequences out of 15000+600000
+ 696609 words of font info for 511 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 121i,17n,124p,3786b,1224s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MikTek/fonts/type1/public/cm-super/sfrm1000.pfb><D:/MikTek/fonts/type1/public/urw-base35/ucrr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmb8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmbi8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on paper7.pdf (41 pages, 830838 bytes).
+ 121i,17n,124p,3786b,1226s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MikTek/fonts/type1/public/cm-super/sfrm1000.pfb><D:/MikTek/fonts/type1/public/urw-base35/ucrr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/uhvb8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmb8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmbi8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmri8a.pfb>
+Output written on paper7.pdf (41 pages, 853463 bytes).
 PDF statistics:
- 1704 PDF objects out of 1728 (max. 8388607)
- 395 named destinations out of 1000 (max. 500000)
- 76476 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 1718 PDF objects out of 1728 (max. 8388607)
+ 397 named destinations out of 1000 (max. 500000)
+ 76484 words of extra memory for PDF output out of 89155 (max. 10000000)
 
