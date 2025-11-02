@@ -13,3 +13,4 @@ dictionaririze
 approximator
 Wisfeiler-Leman
 Weisfeiler-Leman
+Heideggerian
