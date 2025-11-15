@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.17)  3 NOV 2025 23:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  16 NOV 2025 00:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1187,13 +1187,22 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 46.
  (D:\MikTek\tex/latex/stmaryrd\ustmry.fd)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 46.
+ (D:\MikTek\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \vbox (badness 3826) has occurred while \output is active []
+
+
 
 [1{C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/MikTek/fonts/enc/dvips/base/8r.enc}
 
 ]
-Underfull \vbox (badness 3646) has occurred while \output is active []
-
-
 
 [2]
 Underfull \hbox (badness 6078) in paragraph at lines 95--96
@@ -1215,9 +1224,6 @@ Package hyperref Info: bookmark level for unknown conjecture defaults to 0 on in
 Package natbib Warning: Multiple citation on page 6: same authors and year
 (natbib)                without distinguishing extra letter,
 (natbib)                appears as question mark.
-
-
-Underfull \vbox (badness 3078) has occurred while \output is active []
 
 
 
@@ -1248,20 +1254,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [10]
 
 [11]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 244.
- (D:\MikTek\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-<media/symbolic_prolog1.png, id=691, 398.23781pt x 493.845pt>
+<media/symbolic_prolog1.png, id=705, 398.23781pt x 493.845pt>
 File: media/symbolic_prolog1.png Graphic file (type png)
 <use media/symbolic_prolog1.png>
 Package pdftex.def Info: media/symbolic_prolog1.png  used on input line 249.
 (pdftex.def)             Requested size: 127.19373pt x 157.72467pt.
-<media/symbolic_prolog2.png, id=693, 438.13687pt x 189.70876pt>
+<media/symbolic_prolog2.png, id=707, 438.13687pt x 189.70876pt>
 File: media/symbolic_prolog2.png Graphic file (type png)
 <use media/symbolic_prolog2.png>
 Package pdftex.def Info: media/symbolic_prolog2.png  used on input line 256.
@@ -1281,7 +1279,7 @@ Underfull \vbox (badness 1067) has occurred while \output is active []
 [13 <./media/symbolic_prolog1.png> <./media/symbolic_prolog2.png>]
 
 [14]
-<media/learningagent.png, id=845, 574.145pt x 401.5pt>
+<media/learningagent.png, id=858, 574.145pt x 401.5pt>
 File: media/learningagent.png Graphic file (type png)
 <use media/learningagent.png>
 Package pdftex.def Info: media/learningagent.png  used on input line 286.
@@ -1325,7 +1323,9 @@ l.385     A
 
 [23]
 
-[24] (paper7.bbl
+[24]
+
+[25] (paper7.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 10.
  (D:\MikTek\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
@@ -1349,15 +1349,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
 
 
-[25
+[26
 
 ]
-
-[26]
 
 [27]
 
 [28]
+
+[29]
 Underfull \hbox (badness 1348) in paragraph at lines 651--658
 \OT1/ptm/m/it/9 (+20) An-nual Meet-ing of the Berke-ley Lin-guis-tics So-ci-ety\OT1/ptm/m/n/9 (+20) , pp. 35--55, 1988.  doi: $10 . 3765 / bls . v14i0 .
  []
@@ -1379,21 +1379,21 @@ Underfull \hbox (badness 1137) in paragraph at lines 683--691
 
 
 
-[29]
+[30]
 Underfull \hbox (badness 2393) in paragraph at lines 874--880
 []\OT1/ptm/m/n/9 (+20) Charles F. Hock-ett.  The ori-gin of speech.  \OT1/ptm/m/it/9 (+20) Sci-en-tific Amer-i-can\OT1/ptm/m/n/9 (+20) , 203(3):88--111, 1960.  doi:
  []
 
 
 
-[30]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 938--942
 []\OT1/ptm/m/n/9 (+20) IBM.  Ar-ti-fi-cial in-tel-li-gence, 2024.  URL []$\OT1/pcr/m/n/9 https : / / www . ibm . com / think / topics /
  []
 
 
 
-[31]
+[32]
 Underfull \hbox (badness 1163) in paragraph at lines 1144--1152
 []\OT1/ptm/m/n/9 (+20) Gary Mar-cus.  El-e-gant and pow-er-ful new re-sult that se-ri-ously un-der-mines large lan-guage mod-els.
  []
@@ -1413,9 +1413,9 @@ Underfull \hbox (badness 1460) in paragraph at lines 1163--1170
 
 
 
-[32]
-
 [33]
+
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 1326--1330
 []\OT1/ptm/m/n/9 (+20) NASA.  What is ar-ti-fi-cial in-tel-li-gence?, 2023.  URL []$\OT1/pcr/m/n/9 https : / / www . nasa . gov /
  []
@@ -1437,7 +1437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1442--1446
 
 
 
-[34]
+[35]
 Underfull \hbox (badness 1308) in paragraph at lines 1486--1493
 []\OT1/ptm/m/n/9 (+20) J. R. Quin-lan.  \OT1/ptm/m/it/9 (+20) In-duc-tion of De-ci-sion Trees\OT1/ptm/m/n/9 (+20) .  Mor-gan Kauf-mann, 1986.  URL []$\OT1/pcr/m/n/9 https : / / www .
  []
@@ -1479,9 +1479,9 @@ Underfull \hbox (badness 1577) in paragraph at lines 1589--1596
 
 
 
-[35]
-
 [36]
+
+[37]
 Underfull \hbox (badness 4859) in paragraph at lines 1863--1870
 []\OT1/ptm/m/n/9 (+20) Muhammad Saad Ud-din.  Stochas-tic par-rots: A novel look at large lan-guage mod-els and
  []
@@ -1498,52 +1498,52 @@ Overfull \hbox (39.84456pt too wide) in paragraph at lines 1863--1870
 
 
 
-[37]
+[38]
 
-[38])
-Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 467.
+[39])
+Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 479.
 
 
-[39]
+[40]
 pdfTeX warning (ext4): destination with the same identifier (name{conjecture.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.473     S
+l.485     S
            uppose there exists a measure $\mathcal{M}[L_i \in A_n]\in \mathb...
-<pdf/blueprint1.pdf, id=1481, 462.96765pt x 195.73627pt>
+<pdf/blueprint1.pdf, id=1499, 462.96765pt x 195.73627pt>
 File: pdf/blueprint1.pdf Graphic file (type pdf)
 <use pdf/blueprint1.pdf>
-Package pdftex.def Info: pdf/blueprint1.pdf  used on input line 478.
+Package pdftex.def Info: pdf/blueprint1.pdf  used on input line 490.
 (pdftex.def)             Requested size: 337.86465pt x 142.85043pt.
-Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on input line 487.
+Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on input line 499.
 
 
-[40 <./pdf/blueprint1.pdf>]
-
-[41]
+[41 <./pdf/blueprint1.pdf>]
 
 [42]
 
-[43] (paper7.aux)
+[43]
+
+[44] (paper7.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `paper7.out' has not changed.
-(rerunfilecheck)             Checksum: EF755E8994578F4F334EDB92182C40BB;4456.
+(rerunfilecheck)             Checksum: D6F0CC32271ABECD0938741CBE868BA9;4850.
  ) 
 Here is how much of TeX's memory you used:
- 68995 strings out of 468187
- 1699847 string characters out of 5448667
- 2557397 words of memory out of 5000000
- 95626 multiletter control sequences out of 15000+600000
- 696926 words of font info for 515 fonts, out of 8000000 for 9000
+ 69004 strings out of 468187
+ 1699945 string characters out of 5448666
+ 2553423 words of memory out of 5000000
+ 95629 multiletter control sequences out of 15000+600000
+ 696030 words of font info for 516 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 121i,17n,124p,3786b,1228s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MikTek/fonts/type1/public/cm-super/sfrm1000.pfb><D:/MikTek/fonts/type1/public/urw-base35/ucrr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/uhvb8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmb8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmbi8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on paper7.pdf (43 pages, 913616 bytes).
+ 121i,17n,124p,3844b,1228s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MikTek/fonts/type1/public/cm-super/sfrm1000.pfb><D:/MikTek/fonts/type1/public/urw-base35/ucrr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmb8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmbi8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmri8a.pfb>
+Output written on paper7.pdf (44 pages, 904252 bytes).
 PDF statistics:
- 1746 PDF objects out of 2073 (max. 8388607)
- 404 named destinations out of 1000 (max. 500000)
- 76489 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 1760 PDF objects out of 2073 (max. 8388607)
+ 408 named destinations out of 1000 (max. 500000)
+ 76513 words of extra memory for PDF output out of 89155 (max. 10000000)
 
