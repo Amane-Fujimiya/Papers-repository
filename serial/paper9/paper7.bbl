@@ -1,4 +1,4 @@
-\begin{thebibliography}{276}
+\begin{thebibliography}{285}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1019,6 +1019,15 @@ Sayash Kapoor and Arvind Narayanan.
 \newblock Leakage and the reproducibility crisis in ml-based science.
 \newblock \emph{arXiv preprint arXiv:2207.07048}, 2022.
 
+\bibitem[Khamesian \& Malek(2021)Khamesian and
+  Malek]{khamesian2021hybridattentionneat}
+Saman Khamesian and Hamed Malek.
+\newblock Hybrid self-attention neat: A novel evolutionary approach to improve
+  the neat algorithm.
+\newblock \emph{arXiv preprint}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2112.03670}.
+\newblock arXiv:2112.03670.
+
 \bibitem[Kirby(2001)]{kirby2001_spontaneous}
 Simon Kirby.
 \newblock Spontaneous evolution of linguistic structure: An iterated learning
@@ -1409,6 +1418,13 @@ Long Ouyang, Jeffrey Wu, Xu~Jiang, Diogo Almeida, Carroll Wainwright, Pamela
   \url{https://www.oxfordlearnersdictionaries.com/definition/english/artificial}.
 \newblock Accessed: 2025-10-01.
 
+\bibitem[O’Neill \& Ryan(2001)O’Neill and Ryan]{oneill2001grammatical}
+Michael O’Neill and Conor Ryan.
+\newblock Grammatical evolution.
+\newblock \emph{IEEE Transactions on Evolutionary Computation}, 5\penalty0
+  (4):\penalty0 349--358, 2001.
+\newblock \doi{10.1109/4235.942529}.
+
 \bibitem[Pearl(2009)]{pearl2009causality}
 Judea Pearl.
 \newblock \emph{Causality: Models, Reasoning, and Inference}.
@@ -1561,6 +1577,14 @@ Stuart Russell and Peter Norvig.
 \newblock Standard textbook that frames AI via agents and a taxonomy of
   definitions/goals.
 
+\bibitem[Ryan et~al.(1998)Ryan, Collins, and O’Neill]{ryan1998grammatical}
+Conor Ryan, J.~J. Collins, and Michael O’Neill.
+\newblock Grammatical evolution: Evolving programs for an arbitrary language.
+\newblock In \emph{Proceedings of the First European Workshop on Genetic
+  Programming (EuroGP’98)}, volume 1391 of \emph{LNCS}, pp.\  83--96.
+  Springer-Verlag, 1998.
+\newblock \doi{10.1007/BFb0055930}.
+
 \bibitem[Ryunosuke~Ishizaki(2025)]{llms_assessment_for_singularity_2025}
 Mahito~Sugiyama Ryunosuke~Ishizaki.
 \newblock Large language models: assessment for singularity.
@@ -1689,6 +1713,12 @@ Jingbo Shang, Zai Zheng, Jiale Wei, Xiang Ying, Felix Tao, and Mindverse Team.
 \newblock \emph{arXiv preprint}, 2024.
 \newblock URL \url{https://arxiv.org/abs/2406.18312}.
 
+\bibitem[Sher(2013)]{sher2013neuroevolutionerl}
+Gene~I. Sher.
+\newblock \emph{Handbook of Neuroevolution Through Erlang}.
+\newblock Springer, 2013.
+\newblock ISBN 978-1-4614-4462-6.
+
 \bibitem[Shortliffe(1976)]{shortliffe1976computer}
 Edward~Hance Shortliffe.
 \newblock \emph{Computer-Based Medical Consultations: MYCIN}.
@@ -1747,6 +1777,34 @@ Ben Sorscher, Robert Geirhos, Shashank Shekhar, Surya Ganguli, and Ari~S.
   2018.
 \newblock A well-rounded survey of history, proposed definitions, and
   philosophy-of-AI debates.
+
+\bibitem[Stanley \& Miikkulainen(2002{\natexlab{a}})Stanley and
+  Miikkulainen]{stanley2002efficientRL}
+Kenneth~O. Stanley and Risto Miikkulainen.
+\newblock Efficient reinforcement learning through evolving neural network
+  topologies.
+\newblock In \emph{Proceedings of the Genetic and Evolutionary Computation
+  Conference (GECCO-2002)}. Morgan Kaufmann, 2002{\natexlab{a}}.
+\newblock URL
+  \url{https://www.cs.utexas.edu/~nn/downloads/papers/stanley.gecco02_1.pdf}.
+\newblock Winner of Best Paper Award at GECCO 2002.
+
+\bibitem[Stanley \& Miikkulainen(2002{\natexlab{b}})Stanley and
+  Miikkulainen]{stanley2002neat}
+Kenneth~O. Stanley and Risto Miikkulainen.
+\newblock Evolving neural networks through augmenting topologies.
+\newblock \emph{Evolutionary Computation}, 10\penalty0 (2):\penalty0 99--127,
+  2002{\natexlab{b}}.
+\newblock \doi{10.1162/106365602320169811}.
+
+\bibitem[Stanley \& Miikkulainen(2004)Stanley and
+  Miikkulainen]{stanley2004competitivecoevolution}
+Kenneth~O. Stanley and Risto Miikkulainen.
+\newblock Competitive coevolution through evolutionary complexification.
+\newblock \emph{Journal of Artificial Intelligence Research}, 21:\penalty0
+  63--100, 2004.
+\newblock URL
+  \url{https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume21/stanley04a.pdf}.
 
 \bibitem[Su et~al.(2024)Su, Tian, Shen, and
   Cai]{su2024unravelingmysteryscalinglaws}
@@ -1931,6 +1989,12 @@ Tom Villani.
 \newblock Argues recent NLP advancements, while remarkable, do not constitute a
   path to AGI.
 
+\bibitem[Volná(2005)]{volna2005evolutionarynn}
+Eva Volná.
+\newblock Evolutionary techniques for neural network optimization.
+\newblock pp.\  3--11, 2005.
+\newblock \doi{10.5220/0001191800030011}.
+
 \bibitem[Wang et~al.(2025)Wang, Hu, Li, Safari, and
   Yang]{wang2025capabilitiesgpt5multimodalmedical}
 Shansong Wang, Mingzhe Hu, Qiang Li, Mojtaba Safari, and Xiaofeng Yang.
@@ -2026,6 +2090,15 @@ Aston Zhang, Zachary~C. Lipton, Mu~Li, and Alexander~J. Smola.
 Chiyuan Zhang, Samy Bengio, Moritz Hardt, Benjamin Recht, and Oriol Vinyals.
 \newblock Understanding deep learning requires rethinking generalization, 2017.
 \newblock URL \url{https://arxiv.org/abs/1611.03530}.
+
+\bibitem[Zhang et~al.(2020)Zhang, Yang, Zenil, Kiani, Shen, and
+  Tegner]{zhang2020retneat}
+Haoling Zhang, Chao-Han~Huck Yang, Hector Zenil, Narsis~A. Kiani, Yue Shen, and
+  Jesper~N. Tegner.
+\newblock Evolving neural networks through a reverse encoding tree.
+\newblock In \emph{arXiv preprint}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2002.00539}.
+\newblock arXiv:2002.00539.
 
 \bibitem[Zhang et~al.(2025)]{zhang2025lllms}
 Yijun Zhang et~al.

@@ -15,3 +15,5 @@ Wisfeiler-Leman
 Weisfeiler-Leman
 Heideggerian
 toolset
+Zuhandenheit
+Vorhandenheit

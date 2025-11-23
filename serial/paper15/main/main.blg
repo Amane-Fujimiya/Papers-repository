@@ -1,0 +1,35 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[4] Config.pm:311> INFO - Logfile is 'main.blg'
+[221] biber-MSWIN64:340> INFO - === 
+[288] Biber.pm:420> INFO - Reading 'main.bcf'
+[725] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[754] Biber.pm:4463> INFO - Processing section 0
+[776] Biber.pm:4654> INFO - Looking for bibtex file 'ramanresearch.bib' for section 0
+[851] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1193] bibtex.pm:1519> INFO - Found BibTeX data source 'ramanresearch.bib'
+[2900] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2900] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2900] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[2900] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[2901] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[3172] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3386] bbl.pm:779> INFO - Output to main.bbl
+[3387] Biber.pm:131> WARN - Range field 'pages' in entry 'orlando2021_sensors_raman' is malformed, falling back to literal
+[3387] Biber.pm:131> WARN - legacy month field 'March' in entry 'sers_water_pollutants_2020' is not an integer - this will probably not sort properly.
+[3387] Biber.pm:131> WARN - legacy month field 'January' in entry 'forensic_sampling_2012' is not an integer - this will probably not sort properly.
+[3387] Biber.pm:131> WARN - legacy month field 'May' in entry 'sers_general_2024' is not an integer - this will probably not sort properly.
+[3387] Biber.pm:131> WARN - legacy month field 'February' in entry 'raman_clinical_2024' is not an integer - this will probably not sort properly.
+[3388] Biber.pm:131> WARN - legacy month field 'October' in entry 'raman_art_history_vol2_2018' is not an integer - this will probably not sort properly.
+[3388] Biber.pm:131> WARN - legacy month field 'December' in entry 'raman_art_archaeology_2016' is not an integer - this will probably not sort properly.
+[3388] Biber.pm:131> WARN - legacy month field 'September' in entry 'coherent_raman_ml_2024' is not an integer - this will probably not sort properly.
+[3388] Biber.pm:131> WARN - legacy month field 'August' in entry 'sers_environmental_2025' is not an integer - this will probably not sort properly.
+[3388] Biber.pm:131> WARN - legacy month field 'May' in entry 'shiners_catalysis_2017' is not an integer - this will probably not sort properly.
+[3388] Biber.pm:131> WARN - legacy month field 'February' in entry 'raman_denoising_2024' is not an integer - this will probably not sort properly.
+[3389] Biber.pm:131> WARN - legacy month field 'October' in entry 'raman_immune_cells_2025' is not an integer - this will probably not sort properly.
+[3389] Biber.pm:131> WARN - legacy year field '1950--1966' in entry 'herzberg1950molecular' is not an integer - this will probably not sort properly.
+[3389] Biber.pm:131> WARN - legacy month field 'January' in entry 'deeplearning_raman_2025' is not an integer - this will probably not sort properly.
+[3389] Biber.pm:131> WARN - legacy month field 'January' in entry 'sers_cancer_pathogens_2025' is not an integer - this will probably not sort properly.
+[3389] Biber.pm:131> WARN - legacy month field 'January' in entry 'sers_tdm_2025' is not an integer - this will probably not sort properly.
+[3389] Biber.pm:131> WARN - legacy month field 'March' in entry 'nanozyme_sers_2022' is not an integer - this will probably not sort properly.
+[3389] Biber.pm:131> WARN - legacy month field 'March' in entry 'sers_biomedical_2025' is not an integer - this will probably not sort properly.
+[3390] Biber.pm:133> INFO - WARNINGS: 18

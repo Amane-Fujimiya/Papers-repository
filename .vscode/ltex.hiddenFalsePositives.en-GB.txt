@@ -1,1 +1,2 @@
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QOn the philosophical side, many has argued against the notion of computationalism, whether computers can actually be used as the foundation to create intelligence form, and understandably yet unsurprisingly the current theoretical treatment cannot have an answer toward such argument, other than keep working on it until a roadblock is hit.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QWhat that said, we need to take on the priori on which learning is necessary.\\E$"}

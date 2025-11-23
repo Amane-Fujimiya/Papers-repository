@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  16 NOV 2025 00:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.13)  23 NOV 2025 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1325,7 +1325,11 @@ l.385     A
 
 [24]
 
-[25] (paper7.bbl
+[25]
+
+[26]
+
+[27] (paper7.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 10.
  (D:\MikTek\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
@@ -1349,15 +1353,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
 
 
-[26
-
-]
-
-[27]
-
 [28]
 
 [29]
+
+[30]
+
+[31]
 Underfull \hbox (badness 1348) in paragraph at lines 651--658
 \OT1/ptm/m/it/9 (+20) An-nual Meet-ing of the Berke-ley Lin-guis-tics So-ci-ety\OT1/ptm/m/n/9 (+20) , pp. 35--55, 1988.  doi: $10 . 3765 / bls . v14i0 .
  []
@@ -1379,152 +1381,155 @@ Underfull \hbox (badness 1137) in paragraph at lines 683--691
 
 
 
-[30]
+[32]
+
+[33]
 Underfull \hbox (badness 2393) in paragraph at lines 874--880
 []\OT1/ptm/m/n/9 (+20) Charles F. Hock-ett.  The ori-gin of speech.  \OT1/ptm/m/it/9 (+20) Sci-en-tific Amer-i-can\OT1/ptm/m/n/9 (+20) , 203(3):88--111, 1960.  doi:
  []
 
 
-
-[31]
 Underfull \hbox (badness 10000) in paragraph at lines 938--942
 []\OT1/ptm/m/n/9 (+20) IBM.  Ar-ti-fi-cial in-tel-li-gence, 2024.  URL []$\OT1/pcr/m/n/9 https : / / www . ibm . com / think / topics /
  []
 
 
 
-[32]
-Underfull \hbox (badness 1163) in paragraph at lines 1144--1152
+[34]
+
+[35]
+Underfull \hbox (badness 1163) in paragraph at lines 1153--1161
 []\OT1/ptm/m/n/9 (+20) Gary Mar-cus.  El-e-gant and pow-er-ful new re-sult that se-ri-ously un-der-mines large lan-guage mod-els.
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1165.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1174.
 (D:\MikTek\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1152) in paragraph at lines 1163--1170
+Underfull \hbox (badness 1152) in paragraph at lines 1172--1179
 []\OT1/ptm/m/n/9 (+20) Haggai Maron, Heli Ben-Hamu, Hadar Ser-vian-sky, and Yaron Lip-man.  Prov-ably pow-er-ful graph
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 1163--1170
+Underfull \hbox (badness 1460) in paragraph at lines 1172--1179
 \OT1/ptm/m/n/9 (+20) nett (eds.), \OT1/ptm/m/it/9 (+20) Ad-vances in Neu-ral In-for-ma-tion Pro-cess-ing Sys-tems\OT1/ptm/m/n/9 (+20) , vol-ume 32. Cur-ran As-so-ciates,
  []
 
 
 
-[33]
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1330
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1339
 []\OT1/ptm/m/n/9 (+20) NASA.  What is ar-ti-fi-cial in-tel-li-gence?, 2023.  URL []$\OT1/pcr/m/n/9 https : / / www . nasa . gov /
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 1353--1360
+Underfull \hbox (badness 2229) in paragraph at lines 1362--1369
 []\OT1/ptm/m/n/9 (+20) Allen Newell, J. C. Shaw, and Her-bert A. Si-mon.  Re-port on a gen-eral problem-solving pro-
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 1353--1360
+Underfull \hbox (badness 2689) in paragraph at lines 1362--1369
 \OT1/ptm/m/n/9 (+20) gram.  In \OT1/ptm/m/it/9 (+20) Pro-ceed-ings of the In-ter-na-tional Con-fer-ence on In-for-ma-tion Pro-cess-ing\OT1/ptm/m/n/9 (+20) , pp. 256--
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1442--1446
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1458--1462
 \OT1/ptm/m/n/9 (+20) Dor-drecht, Nether-lands, 1997.  URL []$\OT1/pcr/m/n/9 https : / / link . springer . com / book / 10 . 1007 /
  []
 
 
-
-[35]
-Underfull \hbox (badness 1308) in paragraph at lines 1486--1493
+Underfull \hbox (badness 1308) in paragraph at lines 1502--1509
 []\OT1/ptm/m/n/9 (+20) J. R. Quin-lan.  \OT1/ptm/m/it/9 (+20) In-duc-tion of De-ci-sion Trees\OT1/ptm/m/n/9 (+20) .  Mor-gan Kauf-mann, 1986.  URL []$\OT1/pcr/m/n/9 https : / / www .
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 1505--1512
+Underfull \hbox (badness 1264) in paragraph at lines 1521--1528
 []\OT1/ptm/m/n/9 (+20) Alec Rad-ford, Jef-frey Wu, Re-won Child, David Luan, Dario Amodei, and Ilya Sutskever.  Lan-
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 1505--1512
+Underfull \hbox (badness 6047) in paragraph at lines 1521--1528
 \OT1/ptm/m/n/9 (+20) guage mod-els are un-su-per-vised mul-ti-task learn-ers.  \OT1/ptm/m/it/9 (+20) Ope-nAI blog\OT1/ptm/m/n/9 (+20) , 1(8):9, 2019.  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1505--1512
+Underfull \hbox (badness 10000) in paragraph at lines 1521--1528
 []$\OT1/pcr/m/n/9 https : / / d4mucfpksywv . cloudfront . net / better-[]language-[]models / language _
- []
-
-
-Underfull \hbox (badness 3690) in paragraph at lines 1589--1596
-[]\OT1/ptm/m/n/9 (+20) Ferdinand de Saus-sure.  \OT1/ptm/m/it/9 (+20) Course in Gen-eral Lin-guis-tics\OT1/ptm/m/n/9 (+20) .  Philo-soph-i-cal Li-brary / Duck-worth
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1589--1596
-\OT1/ptm/m/n/9 (+20) (En-glish trans-la-tions), 1916.  URL []$\OT1/pcr/m/n/9 https : / / ia600204 . us . archive . org / 0 / items /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1589--1596
-\OT1/pcr/m/n/9 SaussureFerdinandDeCourseInGeneralLinguistics1959 / Saussure _ Ferdinand _
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 1589--1596
-\OT1/pcr/m/n/9 de _ Course _ in _ General _ Linguistics _ 1959 . pdf$[]\OT1/ptm/m/n/9 (+20) .  Com-piled from lec-ture notes; clas-sic
- []
-
-
-
-[36]
-
-[37]
-Underfull \hbox (badness 4859) in paragraph at lines 1863--1870
-[]\OT1/ptm/m/n/9 (+20) Muhammad Saad Ud-din.  Stochas-tic par-rots: A novel look at large lan-guage mod-els and
- []
-
-
-Underfull \hbox (badness 5231) in paragraph at lines 1863--1870
-\OT1/ptm/m/n/9 (+20) their lim-i-ta-tions, April 2023.  URL []$\OT1/pcr/m/n/9 https : / / towardsai . net / p / machine-[]learning /
- []
-
-
-Overfull \hbox (39.84456pt too wide) in paragraph at lines 1863--1870
-\OT1/pcr/m/n/9 stochastic-[]parrots-[]a-[]novel-[]look-[]at-[]large-[]language-[]models-[]and-[]their-[]limitations$[]\OT1/ptm/m/n/9 (-20) .
  []
 
 
 
 [38]
+Underfull \hbox (badness 3690) in paragraph at lines 1613--1620
+[]\OT1/ptm/m/n/9 (+20) Ferdinand de Saus-sure.  \OT1/ptm/m/it/9 (+20) Course in Gen-eral Lin-guis-tics\OT1/ptm/m/n/9 (+20) .  Philo-soph-i-cal Li-brary / Duck-worth
+ []
 
-[39])
-Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 479.
 
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1620
+\OT1/ptm/m/n/9 (+20) (En-glish trans-la-tions), 1916.  URL []$\OT1/pcr/m/n/9 https : / / ia600204 . us . archive . org / 0 / items /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1620
+\OT1/pcr/m/n/9 SaussureFerdinandDeCourseInGeneralLinguistics1959 / Saussure _ Ferdinand _
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 1613--1620
+\OT1/pcr/m/n/9 de _ Course _ in _ General _ Linguistics _ 1959 . pdf$[]\OT1/ptm/m/n/9 (+20) .  Com-piled from lec-ture notes; clas-sic
+ []
+
+
+
+[39]
 
 [40]
+Underfull \hbox (badness 4859) in paragraph at lines 1921--1928
+[]\OT1/ptm/m/n/9 (+20) Muhammad Saad Ud-din.  Stochas-tic par-rots: A novel look at large lan-guage mod-els and
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 1921--1928
+\OT1/ptm/m/n/9 (+20) their lim-i-ta-tions, April 2023.  URL []$\OT1/pcr/m/n/9 https : / / towardsai . net / p / machine-[]learning /
+ []
+
+
+Overfull \hbox (39.84456pt too wide) in paragraph at lines 1921--1928
+\OT1/pcr/m/n/9 stochastic-[]parrots-[]a-[]novel-[]look-[]at-[]large-[]language-[]models-[]and-[]their-[]limitations$[]\OT1/ptm/m/n/9 (-20) .
+ []
+
+
+
+[41])
+
+[42]
+Package hyperref Info: bookmark level for unknown assumption defaults to 0 on input line 496.
+
 pdfTeX warning (ext4): destination with the same identifier (name{conjecture.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.485     S
+l.502     S
            uppose there exists a measure $\mathcal{M}[L_i \in A_n]\in \mathb...
-<pdf/blueprint1.pdf, id=1499, 462.96765pt x 195.73627pt>
+<pdf/blueprint1.pdf, id=1547, 462.96765pt x 195.73627pt>
 File: pdf/blueprint1.pdf Graphic file (type pdf)
 <use pdf/blueprint1.pdf>
-Package pdftex.def Info: pdf/blueprint1.pdf  used on input line 490.
+Package pdftex.def Info: pdf/blueprint1.pdf  used on input line 507.
 (pdftex.def)             Requested size: 337.86465pt x 142.85043pt.
-Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on input line 499.
 
-
-[41 <./pdf/blueprint1.pdf>]
-
-[42]
 
 [43]
+Package hyperref Info: bookmark level for unknown hypothesis defaults to 0 on input line 516.
 
-[44] (paper7.aux)
+
+[44 <./pdf/blueprint1.pdf>]
+
+[45]
+
+[46]
+
+[47] (paper7.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
@@ -1533,17 +1538,17 @@ Package rerunfilecheck Info: File `paper7.out' has not changed.
 (rerunfilecheck)             Checksum: D6F0CC32271ABECD0938741CBE868BA9;4850.
  ) 
 Here is how much of TeX's memory you used:
- 69004 strings out of 468187
- 1699945 string characters out of 5448666
- 2553423 words of memory out of 5000000
- 95629 multiletter control sequences out of 15000+600000
- 696030 words of font info for 516 fonts, out of 8000000 for 9000
+ 69082 strings out of 468187
+ 1701444 string characters out of 5448666
+ 2553989 words of memory out of 5000000
+ 95660 multiletter control sequences out of 15000+600000
+ 697420 words of font info for 536 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 121i,17n,124p,3844b,1228s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 121i,17n,124p,3845b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmbx7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTek/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/MikTek/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MikTek/fonts/type1/public/cm-super/sfrm1000.pfb><D:/MikTek/fonts/type1/public/urw-base35/ucrr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmb8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmbi8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmr8a.pfb><D:/MikTek/fonts/type1/public/urw-base35/utmri8a.pfb>
-Output written on paper7.pdf (44 pages, 904252 bytes).
+Output written on paper7.pdf (47 pages, 931761 bytes).
 PDF statistics:
- 1760 PDF objects out of 2073 (max. 8388607)
- 408 named destinations out of 1000 (max. 500000)
+ 1818 PDF objects out of 2073 (max. 8388607)
+ 425 named destinations out of 1000 (max. 500000)
  76513 words of extra memory for PDF output out of 89155 (max. 10000000)
 
